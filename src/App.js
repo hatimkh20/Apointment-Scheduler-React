@@ -30,7 +30,11 @@ const App = () => {
         endAccessor="end"
         style={{ height: 500, margin: "50px" }}
         onSelectEvent={(a) => console.log(a)}
-        onSelectSlot={(slot) => ModalHandlerOpen(slot)}
+        onSelectSlot={(slot) =>
+          slot["start"] > Date.now()
+            ? ModalHandlerOpen(slot)
+            : alert("Please select future slots.")
+        }
         selectable
       />
 

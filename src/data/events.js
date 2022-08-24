@@ -1,18 +1,18 @@
 export const events = [
   {
     title: "Meet 1",
-    start: new Date(2022, 7, 24, 11),
-    end: new Date(2022, 7, 24, 12),
+    start: new Date(2022, 7, 26, 11),
+    end: new Date(2022, 7, 26, 12),
   },
   {
     title: "Meet 2",
-    start: new Date(2022, 7, 23, 13),
-    end: new Date(2022, 7, 23, 14),
+    start: new Date(2022, 7, 27, 13),
+    end: new Date(2022, 7, 27, 14),
   },
   {
     title: "Meet 3",
-    start: new Date(2022, 7, 23, 14),
-    end: new Date(2022, 7, 23, 15),
+    start: new Date(2022, 7, 26, 14),
+    end: new Date(2022, 7, 26, 15),
   },
   {
     title: "Meet 4",
@@ -26,8 +26,8 @@ export const events = [
   },
   {
     title: "Meet 6",
-    start: new Date(2022, 7, 24, 18),
-    end: new Date(2022, 7, 24, 19),
+    start: new Date(2022, 7, 25, 18),
+    end: new Date(2022, 7, 25, 19),
   },
   {
     title: "Meet 7",
